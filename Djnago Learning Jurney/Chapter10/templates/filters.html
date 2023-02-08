@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filters</title>
+</head>
+<body>
+    <h2><b>DTL Templates use</b></h2>
+
+    <pre>
+        . upper filter 
+        Name: {{Name | upper}}
+
+        . lower filter 
+        Name: {{Name | lower}}
+
+        . capfirst filter 
+        Name: {{Name | capfirst}}
+
+        . lenght filter 
+        Name: {{Name | length}}
+
+        . Default filter 
+
+        DefValue: {{val | default:"Nothing We dont identifi that data" }}
+
+        . truncatechars filter 
+        Para: {{para | truncatechars:4 }}
+
+        . truncatecwords filter 
+        Para: {{para | truncatewords:10 }}
+
+        . time filter 
+        Time: {{Datetime | time:'H:i' }}
+       
+
+        . Date filter 
+        Date: {{Datetime | date:"D d M Y" }}
+
+        . floatformat filter 
+        Price: {{prince | floatformat }}
+
+        . floatformat with parameter filter 
+        Price: {{prince | floatformat:3 }}
+
+       
+
+       
+
+
+
+    </pre>
+   
+</body>
+</html>

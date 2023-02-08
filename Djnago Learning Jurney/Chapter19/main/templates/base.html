@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+{% load static %}
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %} Default title {% endblock title %}</title>
+
+    <link rel="stylesheet" href="{% static 'css/base.css' %}">
+</head>
+<body>
+
+    <center>
+        {% block content1 %}
+        {% endblock content1 %}     
+    </center>
+
+    
+    <!-- methode 1 simple  -->
+    <!-- <ul>
+        <li>
+            <a href="/"> Home </a>
+        </li>
+        <li>
+            <a href="/about"> About </a>
+        </li>
+
+        <li>
+            <a href="/course/courseIndex"> Course </a>
+        </li>
+        
+    </ul> -->
+
+    <!-- url tag  -->
+    <ul>
+        <li>
+            <a href="{% url 'home' %}"> Home </a>
+        </li>
+        <li>
+            <a href="{% url 'about' %}"> About </a>
+        </li>
+
+        <li>
+            <a href="{% url 'course' %}"> Course </a>
+        </li>
+        
+    </ul>
+
+
+    <!-- add image from static file  -->
+    {% block Img %}
+        
+    <center>defalut img</center>
+    
+    {% endblock Img %}
+
+
+
+    
+</body>
+</html>

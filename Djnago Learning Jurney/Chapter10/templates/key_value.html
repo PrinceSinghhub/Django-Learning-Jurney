@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Key Value Data</title>
+</head>
+<body>
+    
+<h3><b>Key Value Excess</b></h3>
+
+<ul>
+    {% for key,value in data.items %}
+<li>
+    {{key}} : {{value}}
+</li>
+{% endfor %}
+</ul>
+
+<br><br>
+Particular Dic Key Value excess using . 
+
+<ul>
+    {% for key,value in data.stu1.items %} 
+<li>
+    {{key}} : {{value}}
+</li>
+{% endfor %}
+</ul>
+
+<h3><b>Nested LOOP use in data</b></h3>
+{% for key,value in data.items %}
+Nested Dic: {{key}}
+{% for key1,value1 in value.items %}
+
+<li>
+    {{key1}} : {{value1}}
+</li>
+
+{% endfor %}
+<br>
+{% endfor %}
+
+
+
+
+</body>
+</html>

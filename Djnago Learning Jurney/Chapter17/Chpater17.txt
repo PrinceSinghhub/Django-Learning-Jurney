@@ -1,0 +1,13 @@
+Chapter 17
+
+in this Chpater we learn How to use Static file rith template inheretance 
+
+Project Level static file how to use
+Application Specifi static file how to use
+
+Bullet Points 
+Static File css/js/image 
+Template inheretance
+extends
+block
+block.super

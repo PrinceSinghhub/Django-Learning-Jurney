@@ -1,0 +1,7 @@
+Chapter 24
+in this Chapter we learn How to Register Model Class and use __str__ method
+
+
+Bullet  Points
+How to register our Model
+how to use __str__ method for good data representation 

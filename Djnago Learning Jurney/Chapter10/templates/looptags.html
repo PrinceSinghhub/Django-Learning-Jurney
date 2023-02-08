@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loops Tags</title>
+</head>
+<body>
+
+    <h3><b>Loops Tags</b></h3>
+    
+    <pre>
+   
+    with out using loop
+    Student Name: {{name}}
+    </pre>
+
+        Usining Loops Tag
+        <br>
+        {% for nm in name %}
+        {{nm}}
+
+        {% endfor %}
+         
+        <br>
+        <br>
+        Usining Loops Tag with order list
+        <br>
+        <ul>
+            {% for nm in name %}
+            <li>{{nm}}</li>
+
+        {% endfor %}
+        </ul>
+
+        <br><br>
+        list of nth Naturea number 
+        <pre>
+            Nth Natural Number: {{nn}}
+        </pre>
+
+        using loop 
+        <br>
+        Nth Natural Number:
+        {% for n in nn %}
+            
+         {{n}}
+        {% endfor %}
+
+
+        <br><br>
+        Reversed using loop
+        <br>
+        Reversed Nth Natural Number:
+        {% for i in nn reversed%}
+        {{i}}
+        
+        {% endfor %}
+
+        <br>
+        empty use in loop
+        <br><br>
+        {% for x in data %}
+        {{x}}
+        {% empty %}
+        Data Note found that store in data sorry!
+
+        {% endfor %}
+
+
+        <br><br>
+        Predifined variable with loop 
+        forloop.counter
+
+        <br>
+
+        {% for n in name%}
+        {{forloop.counter}} {{n}}
+
+        {% endfor %}
+
+        <br><br>
+        Predifined variable with loop 
+        forloop.counter0
+
+        <br>
+
+        {% for n in name%}
+        {{forloop.counter0}} {{n}}
+
+        {% endfor %}
+
+        <br><br>
+        Predifined variable with loop 
+        forloop.revcounter
+
+        <br>
+
+        {% for n in name%}
+        {{forloop.revcounter}} {{n}}
+
+        {% endfor %}
+
+        <br><br>
+        Predifined variable with loop 
+        forloop.revcounter0
+
+        <br>
+
+        {% for n in name%}
+        {{forloop.revcounter0}} {{n}}
+
+        {% endfor %}
+
+
+
+        
+
+
+</body>
+</html>

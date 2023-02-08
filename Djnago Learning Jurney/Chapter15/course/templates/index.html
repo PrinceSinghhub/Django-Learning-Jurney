@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+{% load static %}
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- add css -->
+    <link rel="stylesheet" href="{% static 'Appcss/style.css' %}" />
+
+    <title>Course Index</title>
+</head>
+<body>
+    <center><h1><b>Hello Django Chpater15 Course Index</b></h1>
+    </center>
+
+    <center><h2><b>Interview Bit SS</b></h2></center>
+
+    <!-- add image from static file  -->
+    <center><img src="{% static 'Appimg/interbit.png' %}" alt="sorry image not Found"></center>
+
+    <form action="">
+        <input type="button" value="Click" onclick="disp1()">
+    </form>
+    <!-- add js file -->
+    <script src="{% static 'Appjs/all.js' %}"></script>
+</body>
+</html>

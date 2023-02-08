@@ -1,0 +1,30 @@
+<!-- inherte base.html  -->
+
+{% extends 'base.html' %}
+
+<!-- overwirde the block 1 code  -->
+{% block title %} Course Page {% endblock title%}
+
+
+<!-- overwirde the block 2 code  -->
+<!-- simple wrie block and our content  -->
+
+
+<!-- if i want to both data not overwride  -->
+{% block content %} <center>{{block.super}}</center>
+<center><h1><b>
+    Hello Djnago Chlapter 16 Course Page
+</b>
+</h1></center>{% endblock content %}
+
+<br>
+
+{% block content1 %} 
+    <H2><b>
+        Django Learn By Codex Coder
+    </b>
+    </H2>
+{% endblock content1 %}
+
+
+

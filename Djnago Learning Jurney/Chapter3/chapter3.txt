@@ -1,0 +1,5 @@
+Chpater 3 
+learn a in depth knowledeg og URL Pattern and make many uls as welll 
+ass many views function
+
+write same function for different URL 

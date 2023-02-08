@@ -1,0 +1,24 @@
+/* font  */
+/* Font */
+.st-font {
+    font-family: 'Tapestry';
+  }
+
+
+html,body{
+      height: 100%;
+}
+
+.container-fluid{
+    min-height: 100%;
+}
+
+/* service icon color  */
+.i-colo{
+    color: chartreuse;
+}
+
+/* service text color */
+.ss-colo{
+    color: whitesmoke;
+}

@@ -1,0 +1,9 @@
+Chapter 25
+
+in this Chpater we learn how to regster ModelAdminClass 
+
+Bullet Point 
+
+create AND Register Our ModelAdminClass 
+Register Our ModelClass using @decotor 
+

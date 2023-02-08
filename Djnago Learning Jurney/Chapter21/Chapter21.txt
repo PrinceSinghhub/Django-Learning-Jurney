@@ -1,0 +1,10 @@
+Chpater 21
+
+in this chapter we learn everythong about Models in Djnago
+
+bullet Point 
+
+model 
+how to creat ourn own models 
+model operation 
+buit in field operation 

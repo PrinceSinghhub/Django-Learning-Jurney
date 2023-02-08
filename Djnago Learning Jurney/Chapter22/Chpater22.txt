@@ -1,0 +1,10 @@
+Chpater 22
+
+in this Chpater we learn how to show retrive data from database and show at the end of user 
+
+Bullet Point 
+creater our model 
+views.py go ans excess data from data base 
+that data pass in our template using render function 
+
+how ti retrive single row of data 

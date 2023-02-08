@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>if Tags</title>
+</head>
+<body>
+    
+
+    <h4><b>ValidNumber Checker</b></h4>
+    <pre>
+        {% if n > 0 and n < 10 %}
+        Yes Given Number is Valid: {{n}}
+
+        {%else%}
+        No Given Number is Not Valid: {{n}}
+
+        {% endif %}
+
+    </pre>
+
+    <h4><b>Even old Number Checker</b></h4>
+    <pre>
+
+        {% if ans %}
+        Yes Given Number is Even: {{num}}
+
+        {%else%}
+        No Given Number is Not Even: {{num}}
+
+        {% endif %}
+
+    </pre>
+
+    <h4><b>Prime Number Checker</b></h4>
+    <pre>
+
+        {% if ans1 %}
+        Yes Given Number is Prime: {{num1}}
+
+        {%else%}
+        May be Gven Numer is Smaller then 2 or Not a Prime Number: {{num1}}
+
+        {% endif %}
+
+    </pre>
+</body>
+</html>

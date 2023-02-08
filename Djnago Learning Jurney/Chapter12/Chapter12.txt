@@ -1,0 +1,4 @@
+Chapter 12
+
+in this chapter we learn how to merge and
+use inside main Project Templates and every app templates both and its process 

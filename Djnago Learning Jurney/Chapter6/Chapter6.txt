@@ -1,0 +1,3 @@
+Chater 6
+in this Chapter we learn Http dispatcher or url patter inside the Project
+learn include() methode how to use in our main project urls.py and how to call in url bar 

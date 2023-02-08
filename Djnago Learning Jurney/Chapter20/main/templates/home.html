@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block title %} Home Page {% endblock title %}
+
+{% block content1 %}
+
+<h1><b>Hello Django! Chapter 20 Home Page</b></h1>
+{% endblock content1 %} 
+
+<div>
+    {% block Img %}
+        
+    <center><img src="{% static 'img/home.png' %}" alt="oppps"></center>
+    
+{% endblock Img %}
+
+
+
+{% block content%}
+<!-- iclude our top course template here  -->
+
+
+{% include 'topCourse.html' with data='Django' code='Interview Bit' %}
+{% include 'topCourse.html' with data='Django' code='Interview Bit' only%}
+ 
+{% endblock content%}
+
+
+

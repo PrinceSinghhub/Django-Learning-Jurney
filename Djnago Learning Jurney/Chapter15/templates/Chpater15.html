@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+{% load static %}
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- add css -->
+    <link rel="stylesheet" href="{% static 'css/style.css' %}" />
+    <title>Chapter 15</title>
+</head>
+<body>
+
+    <center><h1><b>Chpater 15 Home Index for Main Project Static Folder/Files</b></h1></center>
+
+    <br>
+    <br>
+
+    <center><h2><br>My Code Studio Bedges SS</h2></center>
+
+    <!-- add image from static file  -->
+    <center><img src="{% static 'img/ss.png' %}" alt="sorry image not Found"></center>
+
+
+    <form action="">
+        <input type="button" value="Click" onclick="myfun()">
+    </form>
+    <!-- add js file -->
+    <script src="{% static 'js/all.js' %}"></script>
+    
+</body>
+</html>

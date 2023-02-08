@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<!-- load my static file  -->
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}
+        Default Title From Base.html
+        {% endblock title %}
+    </title>
+
+    <!-- link my css here  -->
+    <!-- create a block of core css  -->
+    {% block corecss %}
+    
+    <link rel="stylesheet" href="{% static 'css/core.css' %}">
+
+    {% endblock corecss %}
+
+
+</head>
+<body>
+
+    <h2>
+    {% block content%}
+    Default Content1 From Base.html
+    {% endblock content %}
+    </h2>
+
+    <br>
+
+
+
+    <h5>
+    {% block content1%}
+    Default Content1 From Base.html
+    {% endblock content1 %}
+
+    </h5>
+    
+    <br>
+
+
+
+    {% block content2%}
+    Default Content2 From Base.html
+    {% endblock content2 %}
+
+    <br>
+
+
+    {% block content3%}
+    Default Content3 From Base.html
+    {% endblock content3 %}
+
+    
+
+    <!-- add image from static file  -->
+    {% block coreImg %}
+    <center><img src="{% static 'img/defImg.png' %}" alt="sorry image not Found"></center> 
+    
+    {% endblock coreImg %} 
+
+    
+</body>
+
+
+</html>

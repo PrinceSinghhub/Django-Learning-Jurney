@@ -1,0 +1,2 @@
+Chapter 9
+in this chapter we learn Dynamic Templated file (DTL) how to put dynamic data in our templeates using views.py

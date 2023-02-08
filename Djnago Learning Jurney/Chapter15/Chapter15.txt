@@ -1,0 +1,6 @@
+Chlapter 15
+
+in this Chapter we learn 
+
+How to merge main Project static folder and static folder inside the application, and then use it
+and all the concept releted static folder.

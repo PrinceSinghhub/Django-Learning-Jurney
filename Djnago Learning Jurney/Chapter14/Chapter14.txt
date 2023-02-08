@@ -1,0 +1,7 @@
+Chlapter 14
+
+in this Chapter we learn 
+1 how to create a static folder inside the application
+2 how to use in templates file 
+
+How to merge main Project static folder and static folder inside the application, and then use it

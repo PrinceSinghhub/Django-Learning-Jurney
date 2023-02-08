@@ -1,0 +1,4 @@
+Chapter 13
+Introduction of Statice folder or File and understand its concept  and syntex 
+
+creat a static folder inside main proect and use it

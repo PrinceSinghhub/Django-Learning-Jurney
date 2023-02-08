@@ -1,0 +1,9 @@
+Chpater 26
+
+in this Chapter how to create Django Form/API form 
+
+bullet points 
+
+Creating django form in application 
+how to render django form in template
+django form rendring options 

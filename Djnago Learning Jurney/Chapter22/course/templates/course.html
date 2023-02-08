@@ -1,0 +1,49 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Course 
+{% endblock title %}
+
+{% block content1 %}
+<h1><b>Hello! Django Course Record Page </b></h1>
+{% endblock content1 %}
+
+<br><br>
+{% block content2 %}
+<h2><b> Excess Data from Database </b></h2>
+<br>
+<br>
+{% if data %}
+<h3><b>Show Data</b></h3>
+{{data}}
+<br>
+<br><br>
+
+<table>
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Branch</th>
+        <th>Fee</th>
+    </tr>
+
+    {% for db in data%}
+    <tr><td>{{db.StuId}}</td>
+    <td>{{db.StuName}}</td>
+    <td>{{db.StuBranch}}</td>
+    <td>{{db.StuFee}}</td></tr>
+
+    {% endfor %}
+</table>
+
+{% else %}
+<h3><b>No data</b></h3>
+
+
+{% endif %}
+
+
+
+{% endblock content2 %}
+
+ 
